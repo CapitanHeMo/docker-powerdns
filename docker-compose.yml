@@ -6,8 +6,8 @@ services:
     links:
       - "mysql:mysql"
     ports:
-      - "53:53"
-      - "53:53/udp"
+      - "54:53"
+      - "54:53/udp"
       - "8088:8081"
     environment:
       - PDNSCONF_API_KEY=a_strong_api_key
